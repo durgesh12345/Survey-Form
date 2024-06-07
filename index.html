@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto Sans"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="form_background">
+      <div class="form">
+        <div class="form-head">
+          <h3 class="form-heading">Survey Form</h3>
+          <p class="form-heading-summary">
+            Feel Free to answer the Question below based on your own Experience
+            and opinion .if you are not Convenient in answering a particular
+            question please skip it answering "no" .every answer would be very
+            appreciated. thank you for your time.
+          </p>
+          <form action="submit" class="input-value">
+            <div class="Profile-description">
+              <label for="" class="name">Your Name</label>
+              <input type="text" placeholder="Enter Your Name" />
+
+              <label for="" class="name">Your Email Address</label>
+              <input type="text" placeholder="user@user.com" />
+
+              <label for="" class="name">Your Phone Number</label>
+              <input type="text" placeholder="9999-9999-99" />
+
+              <label for="Location">Where Did You Live:</label>
+              <select name="Location" id="Location">
+                <option value="pune">Pune</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="goa">Goa</option>
+                <option value="patna">Patna</option>
+              </select>
+
+              <fieldset class="age">
+                <legend for="Location">Age:</legend>
+                <div class="input-row">
+                  <label>
+                    <input type="radio" name="age" class="radio" value="1" />
+                    15-20</label
+                  >
+                  <label>
+                    <input type="radio" name="age" class="radio" value="1" />
+                    20-30</label
+                  >
+                  <label>
+                    <input type="radio" name="age" class="radio" value="1" />
+                    30-40</label
+                  >
+                </div>
+                <div class="input-row-right">
+                  <label>
+                    <input type="radio" name="age" class="radio" value="1" />
+                    40-50</label
+                  >
+                  <label>
+                    <input type="radio" name="age" class="radio" value="1" />
+                    Prefer not to say</label
+                  >
+                </div>
+              </fieldset>
+
+              <label for="">How would you rate your proficiency in code:</label>
+              <label>
+                <input type="radio" name="code" class="radio" value="1" />
+                Beginner</label
+              >
+              <label>
+                <input type="radio" name="code" class="radio" value="1" />
+                Intermediate</label
+              >
+              <label>
+                <input type="radio" name="code" class="radio" value="1" />
+                Advance</label
+              >
+            </div>
+            <div class="skil-description">
+              <label for="">Have you Ever Appered in any coding contest?</label>
+              <label> <input type="radio" name ="context" class="radio" value="1" /> Yes</label>
+              <label> <input type="radio" name ="context" class="radio" value="1" /> No</label>
+
+              <label for=""
+                >Discuss what drivve your passion for coding and outline your
+                aspiration in the field</label
+              >
+              <textarea name="" id="" cols="3" rows="3"></textarea>
+
+              <label for=""
+                >What are the some challenges that you face while coding?</label
+              >
+              <textarea name="" id="" cols="3" rows="3"></textarea>
+              <label for=""
+                >Please list the data structures you have strong understanding
+                of ?</label
+              >
+              <textarea name="" id="" cols="3" rows="3"></textarea>
+
+              <button type="submit">Submit Button</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
